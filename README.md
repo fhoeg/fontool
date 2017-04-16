@@ -19,9 +19,9 @@ What happens if the font wouldn’t load?
 This is a very simple solution to scrutinize your font of choice for the aspects mentioned above. Wether you are from a Brand, UX, Visual or Interaction design field I hope this can contribute to your workflow. The purpose is to rule out complicated font choices early in the design process. At the moment this works with google fonts and it would also load fonts installed on your system.
 
 # In the planning
-I will add more funcionality in the future, e.g.:
-Font information (origins, available families, license) and Specimen.
-Integration with Typekit and font upload.
-Maybe custom text editing
-Continouus integration of further languages
-Suggestions and feedback are always welcome.
+More funcionality is coming in the future, e.g.:
+- Font information (origins, available families, license) and Specimen.
+- Integration with Typekit and font upload (the former might be impossible due to the very limited typekit api)
+- Maybe custom text editing
+- Continouus integration of further languages
+- Suggestions and feedback are always welcome.
