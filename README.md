@@ -1,4 +1,6 @@
-Welcome to the fontool! This tool can help you to test your webfonts. It's focussing on the following aspects:
+http://fontool.xyz
+
+Fontool can help you to test your webfonts. It's focussing on the following aspects:
 
 ## Overall readability
 Is it friendly to read and suitable for large amounts of text?
