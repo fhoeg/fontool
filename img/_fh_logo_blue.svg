@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Ebene_1" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 50 50"
+	 style="enable-background:new 0 0 50 50;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#363432;}
+	.st1{fill:none;stroke:#00AFD7;stroke-width:2;stroke-linecap:round;}
+</style>
+<title>Shape</title>
+<desc>Created with Sketch.</desc>
+<g>
+	<circle class="st0" cx="25" cy="25" r="25"/>
+</g>
+<g id="Welcome" sketch:type="MSPage">
+	<g id="Mobile-Portrait" transform="translate(-42.000000, -45.000000)" sketch:type="MSArtboardGroup">
+		<path id="Shape" sketch:type="MSShapeGroup" class="st1" d="M73.8,54.1c-1.5-4.6-10.2-4.5-10.2,3.4v20c0,7-7.6,5.2-7.6-1.2
+			c0-4.6,4.3-5.5,4.3-8c0-2.7-3.6-2.7-3.6,0c0,2.3,1.8,4.1,4.4,4.1c1.8,0,5.5-2.9,8.5-5.1c1.6-1.1,2.8-1.9,3.8-2.8
+			c3.1-2.6,0.8-7.4-2.2-4.8c-1.8,1.6-1.7,5.5-1.7,7.5V81c0,2.4,0.3,6.5-1.4,7.5c-3.3,2-5.6-2.7-2.1-5.2c1-0.7,2.2-1.5,3.5-2.4
+			c3-1.9,5.6-3.9,5.6-3.9"/>
+	</g>
+</g>
+</svg>
