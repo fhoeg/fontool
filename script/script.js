@@ -136,6 +136,7 @@ function update(event, fallback) {
 	//var thisFb = fb;
 	/*getPos = $("input.textfield").position();
 	if (getPos.top >= 0) {*/
+	$("html").removeClass();
 	$("input.textfield").blur();
 		event.preventDefault();
 		$(".fb_toggle").show(100);
