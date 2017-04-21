@@ -138,9 +138,9 @@ function update(event, fallback) {
 	if (getPos.top >= 0) {*/
 	$("html").removeClass();
 	$("input.textfield").blur();
-		event.preventDefault();
-		$(".fb_toggle").show(100);
-		$(".langDrop").show(100);
+	event.preventDefault();
+	$(".fb_toggle").show(100);
+	$(".langDrop").show(100);
 	/*} else {
 		event.preventDefault();
 	}*/
@@ -277,28 +277,35 @@ $(function() {
   $( "input.textfield" ).autocomplete({
 		minLength: 1,
 		source: selectList,
-		//autoFocus: true,
+		/*autoFocus: true,*/
+		/*focus: function( event, ui ) {
+			//Fix for bug on mouse select in autocomplete plugin//
+			$(this).val(ui.item.value);
+			$(this).on("click", valCheck );
 
+
+			function valCheck() {
+				$(".toggle_btn").addClass("tgg_inactive");
+				$(".toggle_btn").removeClass("tgg_active");
+				tContent = curLang;
+				$(".textarea").load(tContent + ".html");
+				bState = 0;
+				update(event, 0);
+			};
+		},*/
 		select: function( event, ui ) {
-			getVal = $("input.textfield").val();
-
 			//Fix for bug on mouse select in autocomplete plugin//
 			$(this).val(ui.item.value);
 			valCheck();
 
 			function valCheck() {
-				if(getVal == "") {
-					//$(this).val(fInit);
-				} else {
-					$(".toggle_btn").addClass("tgg_inactive");
-					$(".toggle_btn").removeClass("tgg_active");
-					tContent = curLang;
-					$(".textarea").load(tContent + ".html");
-					bState = 0;
-					update(event, 0);
-				}
+				$(".toggle_btn").addClass("tgg_inactive");
+				$(".toggle_btn").removeClass("tgg_active");
+				tContent = curLang;
+				$(".textarea").load(tContent + ".html");
+				bState = 0;
+				update(event, 0);
 			};
-
 		}
   });
 });

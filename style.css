@@ -413,7 +413,7 @@ ul {
   cursor: pointer;
 }
 
-.ui-state-focus {
+.ui-state-focus, .ui-state-active {
   color: #00afd7;
 }
 
